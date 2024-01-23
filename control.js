@@ -38,6 +38,7 @@ formLogin.addEventListener("submit", function (event) {
     Email : ${txt_email.value}\n
     
     `);
+    window.location = event.currentTarget.href;
   }
 });
 
